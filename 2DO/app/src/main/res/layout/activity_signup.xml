@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".signup">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="152dp"
+        android:layout_height="160dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="130dp"
+        android:layout_marginBottom="535dp"
+        app:srcCompat="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/signin_uname"
+        android:layout_width="351dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="380dp"
+        android:ems="10"
+        android:hint="New User Name"
+        android:inputType="textPersonName"
+        android:textColor="#ECECEC"
+        android:textColorHint="#ECECEC" />
+
+    <EditText
+        android:id="@+id/signin_upass"
+        android:layout_width="351dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="290dp"
+        android:ems="10"
+        android:hint="New User Password"
+        android:inputType="textPersonName|textPassword"
+        android:textColor="#ECECEC"
+        android:textColorHint="#ECECEC" />
+
+    <Button
+        android:id="@+id/signinbutton"
+        android:layout_width="351dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="202dp"
+        android:onClick="onSignup"
+        android:text="Create" />
+
+</RelativeLayout>
